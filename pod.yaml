@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: aviran-pod
+spec:
+  containers:
+  - name: projectcontainers
+    image: aviranve/final:01
+    ports:
+    - containerPort: 80
